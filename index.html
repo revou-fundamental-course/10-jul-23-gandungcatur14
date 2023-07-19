@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        img {
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+          width: 150px;
+        }
+
+        body {
+            background-image: url('b1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kalkulator BMI</h1>
+    <h5>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki entuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu ?</h5>
+    <h5>Yuk, hitung sekarang di kalkulator BMI.</h5>
+    <div class="calculator-container">
+        <p><b>Jenis Kelamin</b></p>
+        <input type="radio" id="man" name="fav_language" value="man">
+        <label for="man"><b>Pria</b></label>
+        <input type="radio" id="woman" name="fav_language" value="woman">
+        <label for="man"><b>Wanita</b></label><br>
+        <p><b>Berat Badan (kg)</b></p>
+        <input class="Berat-input-field" type="text">
+        <p><b>Usia (tahun)</b></p>
+        <input class="usia-input-field" type="text">
+        <p><b>Tinggi Badan (cm)</b></p>
+        <input class="Tinggi-input-field" type="text"><br>
+        <p><button class="calculate"> <b>Hitung BMI</b></button>
+        <button class="reset"> <b>Reset</b></button></p><br>
+    </div><br>
+    <h4>Keunggulan fitur</h4>
+    <ol>
+        <li>Menghitung berat badan</li>
+        <li>Menentukan kategori berat badan ideal atau tidak</li>
+        <li>Mempersiapkan program penurunan berat badan</li>
+    </ol>
+    <h5>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</h5>     
+    <h5>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/(M*M)</h5>
+    <br>
+    <div class="calculator-container">
+            <p id="demo1"></p><br>
+            <p id="demo2"></p><br>
+            <h3 class="result"></h3><br>
+            <p class="result-statement"></p><br>
+            <a href="/js/script.js"></a>
+            <!-- <script src="script.js"></script> -->
+            <p><button class="download"> <b>Download Hasil BMI</b></button>
+    </div>
+    <br>
+    <h5>Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang diknsumsi dan berolahraga.</h5>
+    <h5>Jika BMI Anda berada dalam kategori overweight atau berat badan berlebih maka Anda dianjurkan untuk menurunkan berat badan hingga batas normal.</h5>
+    <p><button class="download"> <b>Konsultasi Ali Gizi Via Aplikasi</b></button>
+    <button class="download"> <b>Registrasi Online Ahli Gizi</b></button></p><br>
+    <h5>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</h5>
+    <br>
+    <div class="calculator-container">
+        <p>Beberapa penyakit yang berasal dari kegemukan</p>
+        <p>Diabetes</p>
+        <p>Hipertensi</p>
+        <p>Sakit Jantung</p>
+        <p>Osteoarthritis</p>
+        <p><button class="download"> <b>Konsultasi Dokter Via Aplikasi</b></button></p>
+        <p><button class="download"> <b>Registrasi Online Sekarang</b></button></p>
+    </div>
+    <br>
+    <h4>Download Aplikasi</h4>
+    <span>
+        <img src="google.png" alt="google" style="width:170px" class="tengah">
+        <img src="appstore.png" alt="appstore" style="width:190px" class="tengah" >
+    </span>
+</body>
+</html>
